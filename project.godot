@@ -23,7 +23,6 @@ GameEvents="*res://scenes/autoload/game_events.tscn"
 
 [debug]
 
-gdscript/warnings/unused_parameter=0
 gdscript/layer_5=""
 gdscript/snap/snap_2d_transforms_to_pixel=true
 gdscript/layer_4=""

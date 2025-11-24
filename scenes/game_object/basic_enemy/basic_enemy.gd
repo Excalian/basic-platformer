@@ -5,7 +5,7 @@ const MAX_SPEED: int = 40
 @onready var health_component: HealthComponent = $HealthComponent
 
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	var direction: Vector2 = get_direction_to_player()
 	velocity = direction * MAX_SPEED
 	move_and_slide()
